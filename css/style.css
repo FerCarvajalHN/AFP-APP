@@ -16,19 +16,19 @@
 /* ========================================================== */
 @font-face {
 	font-family: Neo-Sans;
-	src: url('/descarga-nuestra-app-movil/fonts/Neo_Sans.ttf');
+	src: url('../fonts/Neo_Sans.ttf');
 }
 
 @font-face {
 	font-family: Neo-SansBold;
 	font-weight: bold;
-	src: url('/descarga-nuestra-app-movil/fonts/Neo_Sans_Bold.ttf');
+	src: url('../fonts/Neo_Sans_Bold.ttf');
 }
 
 @font-face {
 	font-family: Neo-SansLight;
 	font-weight: lighter;
-	src: url('/descarga-nuestra-app-movil/fonts//Neo_Sans_Light.ttf');
+	src: url('../fonts//Neo_Sans_Light.ttf');
 }
 
 
@@ -493,11 +493,10 @@ ul.nav.navbar-nav.navbar-right {
 /* ========================================================== */
 
 .luna-homewrapper {
-	background: url('/descarga-nuestra-app-movil/images/Inicio.jpg') top center no-repeat;
+	/* background: url('../images/Inicio.jpg') top center no-repeat; */
 	background-size: cover;
 	padding: 180px 0;
 	position: relative;
-
 }
 
 .luna-homewrapper-overlay {
@@ -666,7 +665,7 @@ ul.luna-hero-social li i {
 }
 
 .luna-aboutbox .luna-aboutbox-text p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 20px;
 	color: #8d909a;
 }
@@ -812,7 +811,7 @@ p.partext {
 }
 
 .luna-featbox p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 22px;
 	color: #fff;
 }
@@ -991,7 +990,7 @@ p.partext {
 }
 
 .section-image1 {
-	background: url('/descarga-nuestra-app-movil/images/Paso1.jpg');
+	background: url('../images/Paso1.jpg');
 	/* background-size: cover; */
 	padding: 200px 0;
 
@@ -999,13 +998,13 @@ p.partext {
 }
 
 .section-image2 {
-	background: url('/descarga-nuestra-app-movil/images/Paso2.jpg');
+	background: url('../images/Paso2.jpg');
 	background-size: cover;
 	/*padding: 70px 0; !important; */
 }
 
 .section-image3 {
-	background: url('/descarga-nuestra-app-movil/images/Paso3.jpg');
+	background: url('../images/Paso3.jpg');
 	background-size: cover;
 	padding: 70px 0;
 }
